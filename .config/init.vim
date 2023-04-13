@@ -9,6 +9,7 @@ call plug#end()
 
 " GLOBAL SETTINGS "
 
+set relativenumber   " Enable relative number
 syntax on            " Enable syntax highlight
 set nu               " Enable line numbers
 set tabstop=4        " Show existing tab with 4 spaces width
@@ -43,7 +44,8 @@ let g:loaded_node_provider = 0
 
 " REMAPS "
 
-" Copy to clipboard
+inoremap jj <Esc>
+set timeoutlen=1000
 
 
 
