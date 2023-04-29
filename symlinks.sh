@@ -12,7 +12,12 @@ echo "Instalando fontes"
 # NEOVIM
 sudo apt install neovim
 echo "Instalando Neovim"
-mkdir ~/.config/nvim
-echo "Criando diretório NVIM"
-ln -s ~/dotfiles/.config/init.vim ~/.config/nvim/init.vim
-echo "Linkando Neovim"
+
+# LAZYNVIM
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+
+# remove .git folder
+rm -rf ~/.config/nvim/.git
+
+# symlink lazynvim configs
+ln -s ~/dotfiles/lazyvim-configs/lua ~/.config/nvim
