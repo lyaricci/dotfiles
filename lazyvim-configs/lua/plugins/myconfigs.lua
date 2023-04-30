@@ -52,4 +52,12 @@ return {
 		end,
 	},
 	-- END= TAB FOR SNIPPETS
+	--
+	require("telescope").setup({
+		defaults = {
+			file_ignore_patterns = {
+				"node_modules",
+			},
+		},
+	}),
 }
