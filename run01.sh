@@ -35,3 +35,6 @@ npm install -g npm@latest
 
 # INSTALA SNAP
 sudo apt install snapd -y
+
+# INSTALA O KITTY TERMINAL
+sudo apt install kitty -y
