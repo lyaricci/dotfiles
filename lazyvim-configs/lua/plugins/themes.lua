@@ -1,4 +1,6 @@
 return {
+	-- { "tribela/vim-transparent" },
+
 	{ "patstockwell/vim-monokai-tasty" },
 
 	{ "tomasiser/vim-code-dark" },
@@ -9,12 +11,14 @@ return {
 
 	{ "rebelot/kanagawa.nvim" },
 
-	{ "tribela/vim-transparent" },
+	{ "sainnhe/gruvbox-material" },
+
+	{ "ful1e5/onedark.nvim" },
 
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "kanagawa",
+			colorscheme = "gruvbox-material",
 		},
 	},
 }
