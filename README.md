@@ -1,29 +1,33 @@
 # Lya's dotfiles
 
-## First steps
+## Steps
 
-### Git clone the repository:
+### Git clone the repository
 
-```markdown
+```bash
 git clone https://github.com/nathalya-ricci/dotfiles.git
 ```
 
-### Run the following file to start setting up
+### Run the following scripts to start setting up
 
-```markdown
-run01.sh
+```bash
+install.sh
 ```
 
-### Run the following file to install and set up ZSH
+### Install and config ZSH
 
-```markdown
-run-zsh.sh
+```bash
+install-zsh.sh
 ```
 
-## Connecting files
+### Install and config Neovim
 
-### Run the following file to create symlinks
+```bash
+install-neovim.sh
+```
 
-```markdown
-symlinks.sh
+### Install and config Kitty terminal
+
+```bash
+install-kitty.sh
 ```

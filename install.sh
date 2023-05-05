@@ -1,40 +1,46 @@
 #!/bin/bash
 
-# UPDATE
+# Update
 sudo apt update && sudo apt upgrade
 
-# INSTALA O CHROME
-## vai fazer o download do .deb na pasta home
+# Install Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+echo "Installing Chrome"
 
-# INSTALA O VSCODE
-## repositório do vscode
+# Install VSCode
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
-
 sudo apt install code
+echo "Installing VSCode"
 
-# INSTALA O NODEJS
+# Install Nodejs
 sudo apt install nodejs
+echo "Installing Nodejs"
 
-# INSTALA O NPM
+# Install npm
 sudo apt install npm
+echo "Installing npm"
 
-# build-essential e libssl-dev packages pra instalar o nvm
+# build-essential and libssl-dev to install nvm
 sudo apt install build-essential checkinstall libssl-dev
+echo "Installing build-essential and libssl-dev"
 
-# INSTALA O NVM PARA UPDATES DO NODEJS E NPM
+# Install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+echo "Installing nvm"
 
-# ATUALIZA O NODEJS PARA A ÚLTIMA VERSÃO
+# Update Nodejs to latest
 nvm install --lts
+echo "Updating Nodejs"
 
-# ATUALIZA O NPM PARA A ÚLTIMA VERSÃO
+# Update npm to latest
 npm install -g npm@latest
+echo "Updating npm"
 
-# INSTALA SNAP
+# Install snap
 sudo apt install snapd -y
+echo "Installing snap"
 
-# INSTALA O KITTY TERMINAL
-sudo apt install kitty -y
+# Install fonts
+ln -s ~/dotfiles/fonts ~/.local/share/fonts
+echo "Installing fonts"
