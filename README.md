@@ -5,7 +5,7 @@
 ### Git clone the repository
 
 ```bash
-git clone https://github.com/nathalya-ricci/dotfiles.git
+git clone https://github.com/lyaricci/dotfiles.git
 ```
 
 ### Run the following scripts to start setting up
