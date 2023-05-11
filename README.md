@@ -1,5 +1,8 @@
 # Lya's dotfiles
 
+TODO:
+- change neovim install to homebrew
+
 ## Steps
 
 ### Git clone the repository
