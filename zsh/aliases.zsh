@@ -7,5 +7,3 @@ alias uu="sudo apt update && sudo apt upgrade"
 alias coder="code -r ."
 
 alias gitrepos="Documentos/repos"
-
-alias dotlazy="./dotfiles/lazyvim-configs/lua"
