@@ -9,6 +9,7 @@ chsh -s $(which zsh)
 echo "Setting zsh as default shell"
 
 # Symlink
+rm ~/.zshrc
 ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/dotfiles/zsh/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh
 echo 'Linking zsh files'
