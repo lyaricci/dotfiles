@@ -8,3 +8,7 @@ echo "Installing kitty terminal"
 mkdir ~/.config/kitty/
 ln -s ~/dotfiles/kitty.conf ~/.config/kitty/
 echo "Linking kitty configs"
+
+# Make kitty the default terminal
+sudo update-alternatives --config x-terminal-emulator
+echo "Setting kitty as default terminal"
