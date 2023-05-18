@@ -128,3 +128,5 @@ SPACESHIP_CHAR_SYMBOL=" "
 SPACESHIP_CHAR_SUFFIX=" "
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+eval "$(starship init zsh)"
