@@ -6,4 +6,4 @@ alias uu="sudo apt update && sudo apt upgrade"
 
 alias coder="code -r ."
 
-alias gitrepos="Documentos/repos"
+alias repos="~/Documents/github/"
