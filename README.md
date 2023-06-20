@@ -1,7 +1,7 @@
 # Lya's dotfiles
 
 TODO:
-- change neovim install to homebrew
+- add neovim install with homebrew
 
 ## Steps
 
@@ -14,23 +14,10 @@ git clone https://github.com/lyaricci/dotfiles.git
 ### Run the following scripts to start setting up
 
 ```bash
-install.sh
+step1.sh
 ```
-
-### Install and config ZSH
+and
 
 ```bash
-install-zsh.sh
-```
-
-### Install and config Neovim
-
-```bash
-install-neovim.sh
-```
-
-### Install and config Kitty terminal
-
-```bash
-install-kitty.sh
+step2.sh
 ```
