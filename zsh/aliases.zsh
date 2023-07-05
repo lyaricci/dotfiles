@@ -7,3 +7,5 @@ alias uu="sudo apt update && sudo apt upgrade"
 alias coder="code -r ."
 
 alias repos="~/Documentos/github/"
+
+alias rocketlint="npm i -D eslint @rocketseat/eslint-config"
